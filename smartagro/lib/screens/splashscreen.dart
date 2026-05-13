@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:smartagro/components/navbar.dart';
 
+
 class Splashscreen extends StatefulWidget {
   const Splashscreen({super.key});
 
@@ -115,7 +116,7 @@ class _SplashscreenState extends State<Splashscreen> {
                             context,
                             MaterialPageRoute(
                               builder: (context) => const NavBar(),
-                            ), // Chama a NavBar
+                            ), // Chama a tela de login
                           );
                         },
                         style: ElevatedButton.styleFrom(
